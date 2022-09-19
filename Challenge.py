@@ -2,6 +2,8 @@ import speech_recognition as sr
 import pyttsx3, speech_recognition as sr
 import pyttsx3
 
+en = pyttsx3.init()
+
 msg = "Seja Bem vindo ao nosso programa de acessibilidade!" 
 
 en.say(msg)
